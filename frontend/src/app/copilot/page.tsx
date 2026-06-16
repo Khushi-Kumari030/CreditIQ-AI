@@ -134,7 +134,7 @@ export default function CopilotPage() {
 
         const response =
         await fetch(
-            "http://127.0.0.1:8000/copilot",
+            "https://creditiq-backend-w3cv.onrender.com/copilot",
             {
             method: "POST",
 

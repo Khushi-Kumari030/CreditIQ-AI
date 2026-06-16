@@ -56,7 +56,7 @@ export default function SimulatorPage() {
       /* Prediction */
 
       const predictionResponse = await fetch(
-        "http://127.0.0.1:8000/predict",
+        "https://creditiq-backend-w3cv.onrender.com/predict",
         {
           method: "POST",
           headers: {
@@ -76,7 +76,7 @@ export default function SimulatorPage() {
       /* Explainability */
 
       const explainResponse = await fetch(
-        "http://127.0.0.1:8000/explain",
+        "https://creditiq-backend-w3cv.onrender.com/explain",
         {
           method: "POST",
           headers: {
