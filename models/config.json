@@ -1,0 +1,29 @@
+{
+    "xgboost_model": "xgboost_v1.pkl",
+
+    "logistic_models": {
+        "Baseline": "logistic_baseline.pkl",
+        "Balanced": "logistic_balanced.pkl",
+        "SMOTE": "logistic_smote.pkl"
+    },
+
+    "scaler": "logistic_scaler.pkl",
+
+    "thresholds": {
+        "Lead": 0.5,
+        "Balanced": 0.6
+    },
+
+    "feature_order": [
+        "RevolvingUtilizationOfUnsecuredLines",
+        "age",
+        "NumberOfTime30-59DaysPastDueNotWorse",
+        "DebtRatio",
+        "MonthlyIncome",
+        "NumberOfOpenCreditLinesAndLoans",
+        "NumberOfTimes90DaysLate",
+        "NumberRealEstateLoansOrLines",
+        "NumberOfTime60-89DaysPastDueNotWorse",
+        "NumberOfDependents"
+    ]
+}
