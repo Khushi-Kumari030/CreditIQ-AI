@@ -1,5 +1,6 @@
 # CreditIQ AI
 
+[![Release](https://img.shields.io/github/v/release/Khushi-Kumari030/CreditIQ-AI?style=for-the-badge)](https://github.com/Khushi-Kumari030/CreditIQ-AI/releases)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-00C896?style=for-the-badge)](https://credit-iq-ai.vercel.app)
 [![API Docs](https://img.shields.io/badge/API-Swagger-success?style=for-the-badge)](https://creditiq-backend-w3cv.onrender.com/docs)
 ![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=for-the-badge\&logo=next.js)
